@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user=scalable:no">
+		<meta name="description" content="Mi hoja de vida">
+		<title>Hoja de Vida Digital</title> 
+	</head>
+
+<body>
+
+	<header>
+	<img src="img/logoCV.svg" width="300px" align="top"  alt="Logo CV" title="Logo CV"></img>
+	<h1>Hoja de vida</h1>
+	<h2>Datos Personales</h2>
+	<h3>Nombres y Apellidos: Gustavo Adolfo, Corado Figueroa</h3>
+	<h3>Fecha de Nacimiento: 20 de julio de 1985</h3>
+	<h3>Ciudad de Nacimiento: San Salvador, El salvador</h3>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</nav>
+
+	<section>
+
+		<h2>Educación</h2>
+		<table border="1">
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+			<tr>
+				<td>2013</td>
+				<td>Universidad de El Salvador</td>
+				<td>San Salvador</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<td>2008</td>
+				<td>Instituto Técnico EXSAL</td>
+				<td>San Salvador</td>
+				<td>Si</td>
+			</tr>
+		</table>
+		<form>
+		<h3>Agregar Estudios</h3>
+		<strong><label for="Anio">Año</label></strong>
+		<select>
+			<option>2015</option>
+			<option>2016</option>
+			<option>2017</option>
+		</select>
+		</br>
+		<strong><label for="institucion">Institución</label></strong>
+		<input type="text" required></input>
+		</br>
+		<strong><label for="lugar">Lugar</label></strong>
+		<textarea name="lugar" rows="2" cols="30"></textarea>
+		</br>
+		<label for="culmino">¿Culminó?</label>
+		<input type="radio" name="culmino" value="si" checked> Si</input>
+		<input type="radio" name="culmino" value="no"> No</input>
+		</br>
+		<input type="submit" value="Enviar"></input>
+		</form>
+	</section>
+
+	<footer>
+		<h5>gustavo_c.figueroa@hotmail.es</h5>
+		<h5>50323564845</h5>
+		<h5>San Salvador - El Salvador</h5>
+	</footer>
+</body>
+
+</html>
